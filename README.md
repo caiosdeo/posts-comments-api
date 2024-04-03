@@ -28,7 +28,7 @@ O arquivo .env deve ser criado na raiz do projeto.
 
 ## Testando a API
 
-Utilizando do Postman, você pode utilizar a seguinte coleção para testar os endpoints da API:
+Utilizando do Postman, você pode utilizar a seguinte coleção para testar os endpoints da API, é necessário exportar ela e importar a mesma localmente:
 
 - [Coleção do Postman](https://www.postman.com/caiosdeo/workspace/posts-comments-api/collection/34022638-4a8bdc28-6cc9-4e38-8721-f907fbe3711f?action=share&source=copy-link&creator=34022638)
 
