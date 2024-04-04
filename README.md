@@ -21,9 +21,19 @@ Bem como a criação e deleção de comentários em um post.
 Você pode encontrar as variáveis de ambiente necessárias no email enviado, necessitando apenas preenchê-las de acordo com o `.env.example` presente no repositório.
 O arquivo .env deve ser criado na raiz do projeto.
 
-4. Para finalizar a instalação basta usar o Docker Compose:
+4. Instale as dependências do projeto:
+```bash
+    npm install
+```
+
+5. Para finalizar a instalação e executar a API, basta usar o Docker Compose:
 ```bash
     docker compose up -d
+```
+
+6. Para saber se já é possível usar a API, é só utilizar os logs:
+```bash
+    docker compose logs api
 ```
 
 ## Testando a API
