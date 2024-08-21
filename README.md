@@ -80,14 +80,13 @@ Endpoint para obter os detalhes de um post específico.
 - **Método:** GET
 - **Parâmetros de rota:** `id` do post
 
-#### Atualizar Usuário
+#### Atualizar post
 
 Endpoint para atualizar os dados de um post existente.
 
 - **URL**: `/posts/:postId`
 - **Método:** PATCH
-- **Parâmetros de rota:**
-  - `id`: ID do usuário
+- **Parâmetros de rota:** `id` do post
 - **Corpo da Requisição:**
 ```json
 {
